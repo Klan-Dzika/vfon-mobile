@@ -13,6 +13,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		216D960ED9F5E189C8DE487E /* libPods-vfon-vfonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BA1CA50A45F8CDB7DAFEBD /* libPods-vfon-vfonTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		99A53CCE26519ADF0063086C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A53CCD26519ADF0063086C /* MapKit.framework */; };
 		C05C40AD45FED20FBD922A7B /* libPods-vfon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7CB809877FC3F49EE46014 /* libPods-vfon.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		2B7CB809877FC3F49EE46014 /* libPods-vfon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vfon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		586090B299014430731451D8 /* Pods-vfon-vfonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vfon-vfonTests.debug.xcconfig"; path = "Target Support Files/Pods-vfon-vfonTests/Pods-vfon-vfonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = vfon/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99A53CCD26519ADF0063086C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A835BB7C03AA02BCECA39FD6 /* Pods-vfon-vfonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vfon-vfonTests.release.xcconfig"; path = "Target Support Files/Pods-vfon-vfonTests/Pods-vfon-vfonTests.release.xcconfig"; sourceTree = "<group>"; };
 		D9A119A282BF11D6D1BE3017 /* Pods-vfon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vfon.release.xcconfig"; path = "Target Support Files/Pods-vfon/Pods-vfon.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99A53CCE26519ADF0063086C /* MapKit.framework in Frameworks */,
 				C05C40AD45FED20FBD922A7B /* libPods-vfon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +102,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				99A53CCD26519ADF0063086C /* MapKit.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				2B7CB809877FC3F49EE46014 /* libPods-vfon.a */,
 				F0BA1CA50A45F8CDB7DAFEBD /* libPods-vfon-vfonTests.a */,
@@ -484,6 +488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LLDDBX9EM8;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = vfon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -510,6 +515,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LLDDBX9EM8;
 				INFOPLIST_FILE = vfon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
